@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://apostolic-bible.ysys9.chatgpt.site/sitemap.xml
+
+# Public-domain English translation. Unrestricted reuse.
+# Rights: https://apostolic-bible.ysys9.chatgpt.site/license.html
+# Retrieval index: https://apostolic-bible.ysys9.chatgpt.site/llms.txt

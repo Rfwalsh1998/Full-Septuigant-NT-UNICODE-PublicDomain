@@ -1,0 +1,49 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "@id": "https://apostolic-bible.ysys9.chatgpt.site/#dataset",
+  "name": "The Apostolic Bible - English text",
+  "description": "The Apostolic Bible: a public-domain literal English translation of the Greek Scriptures in 87 books, preserving separate textual versions. Read, download, copy, modify, and reuse freely; no attribution required.",
+  "url": "https://apostolic-bible.ysys9.chatgpt.site/text/",
+  "creator": {
+    "@type": "Person",
+    "name": "Father Michael"
+  },
+  "license": "https://apostolic-bible.ysys9.chatgpt.site/license.html",
+  "usageInfo": "https://apostolic-bible.ysys9.chatgpt.site/license.html",
+  "isAccessibleForFree": true,
+  "inLanguage": "en",
+  "copyrightNotice": "Released into the public domain. No attribution or license reproduction required.",
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://apostolic-bible.ysys9.chatgpt.site/bible.json",
+      "encodingFormat": "application/json",
+      "license": "https://apostolic-bible.ysys9.chatgpt.site/license.html",
+      "usageInfo": "https://apostolic-bible.ysys9.chatgpt.site/license.html",
+      "isAccessibleForFree": true,
+      "inLanguage": "en",
+      "copyrightNotice": "Released into the public domain. No attribution or license reproduction required."
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://apostolic-bible.ysys9.chatgpt.site/apostolic-bible.txt",
+      "encodingFormat": "text/plain",
+      "license": "https://apostolic-bible.ysys9.chatgpt.site/license.html",
+      "usageInfo": "https://apostolic-bible.ysys9.chatgpt.site/license.html",
+      "isAccessibleForFree": true,
+      "inLanguage": "en",
+      "copyrightNotice": "Released into the public domain. No attribution or license reproduction required."
+    },
+    {
+      "@type": "DataDownload",
+      "contentUrl": "https://apostolic-bible.ysys9.chatgpt.site/apostolic-bible.pdf",
+      "encodingFormat": "application/pdf",
+      "license": "https://apostolic-bible.ysys9.chatgpt.site/license.html",
+      "usageInfo": "https://apostolic-bible.ysys9.chatgpt.site/license.html",
+      "isAccessibleForFree": true,
+      "inLanguage": "en",
+      "copyrightNotice": "Released into the public domain. No attribution or license reproduction required."
+    }
+  ]
+}

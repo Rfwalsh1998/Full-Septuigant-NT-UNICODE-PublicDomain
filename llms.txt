@@ -1,0 +1,36 @@
+# The Apostolic Bible
+
+> Public-domain literal English translation of the Greek Scriptures in 87 separately labeled books, including distinct textual versions.
+
+## Rights
+
+This is a free and unencumbered translation of the Holy Scriptures released into the public domain.
+
+Anyone is free to copy, modify, publish, use, compile, sell, or
+distribute this work, either in source form or as a derivative, for any purpose, commercial or non-commercial, and by any
+means.
+
+Neither attribution or any reproduction of this license are required for any sort of use.
+
+In jurisdictions that recognize copyright, we waive any and all rights granted to us.
+
+## Agent API
+
+- [OpenAPI specification](https://apostolic-bible.ysys9.chatgpt.site/openapi.json): Three read-only operations, no authentication.
+- [List books](https://apostolic-bible.ysys9.chatgpt.site/api/books.json): Exact IDs and chapter strings for all 87 books.
+
+Workflow: listBooks -> optionally getBookMetadata -> getChapter. Example: /api/books/genesis/1.json. For 1 Daniel and 2 Daniel use distinct IDs 1-daniel and 2-daniel. Sirach chapter 0 is valid. Chapter identifiers and verse labels are strings. Select a passage locally from the chapter records; query-string verse filtering is not implemented. Preserve repeated labels, ranges, blank text, source markers, and record order. record_index identifies each record within its chapter. Every API response links the public-domain dedication at https://apostolic-bible.ysys9.chatgpt.site/license.html.
+
+## Retrieval
+
+- [Book and chapter catalog](https://apostolic-bible.ysys9.chatgpt.site/catalog.json): Ordered book list, chapter URLs, verse counts, and per-book text downloads.
+- [HTML text index](https://apostolic-bible.ysys9.chatgpt.site/text/): All books and chapters, accessible without JavaScript.
+- [Complete JSON](https://apostolic-bible.ysys9.chatgpt.site/bible.json): Ordered books with chapter, verse, and exact English text fields. Duplicate verse labels represent separate records; retain their order.
+- [Complete plain text](https://apostolic-bible.ysys9.chatgpt.site/apostolic-bible.txt): Full English text with references.
+- [Full context](https://apostolic-bible.ysys9.chatgpt.site/llms-full.txt): Complete text and public-domain dedication.
+- [PDF](https://apostolic-bible.ysys9.chatgpt.site/apostolic-bible.pdf): Single-column complete English edition.
+- [License](https://apostolic-bible.ysys9.chatgpt.site/license.html): Public-domain dedication; attribution and license reproduction are not required.
+
+## Text handling
+
+Preserve numbered book labels and distinct versions. Do not merge versions or deduplicate repeated verse labels. Some verse fields are ranges or contain source markers. An empty text field remains empty. These resources contain the English translation, not the Greek source.

@@ -1,0 +1,5 @@
+/*
+  Access-Control-Allow-Origin: *
+  Access-Control-Allow-Methods: GET, HEAD, OPTIONS
+  Access-Control-Expose-Headers: Content-Type, Content-Length, ETag, Link
+  Link: <https://apostolic-bible.ysys9.chatgpt.site/license.html>; rel="license"
